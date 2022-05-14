@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.btn-menu {
+    cursor: pointer;
+}
+
+.logo {
+    color: #078ef5;
+}
+
+.logo h2 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.menu-desktop {
+    width: 70%;
+    text-align: right;
+}
+
+.menu-desktop a {
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.menu-desktop a:hover {
+    color: #007bff;
+}
+
+.menu-desktop .btn-menu {
+    background-color: #007bff;
+    display: inline-block;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu-desktop .btn-menu:hover {
+    background-color: #124265;
+    color: white;
+}
+
+.botao__contato {
+    background-color: #007bff;
+    display: inline-block;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+/*
+Section Main
+*/
+
+section.main {
+    background-image: url('img/hero-bg.jpg');
+    padding: 65px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__contato {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #078ef5;
+    font-size: 40px;
+}
+
+.main__contato h2 {
+    color: #078ef5;
+    font-size: 40px;
+}
+
+.main__contato h2::before {
+    content: "📧";
+    display: block;
+}
+
+.botao__contato:hover {
+    background-color: #124265;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/*Display contato*/
+
+.form {
+    width: 100%;
+    max-width: 42rem;
+    font-size: 1.25rem;
+}
+
+.from label,
+.from input,
+.form textarea,
+.form button {
+    display: block;
+    width: 100%;
+}
+
+.form label {
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.5s;
+}
+
+.form textarea {
+    min-height: 13rem;
+    resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+    border-color: #09d;
+    box-shadow: 0 0 0 3px #4dc8ff;
+}
+
+.main__contato {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #078ef5;
+    font-size: 40px;
+}
+
+.main__contato h2 {
+    color: #078ef5;
+    font-size: 40px;
+}
+
+.main__contato h2::before {
+    content: "📧";
+    display: block;
+}
